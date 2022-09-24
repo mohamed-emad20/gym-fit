@@ -1,0 +1,301 @@
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px ;
+    color: black;
+}
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4) ,rgba(0, 0, 0, 0.4)) ,url(../images/header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    margin-top: 20px;
+}
+.main-nav{
+    list-style: none;
+}
+.main-nav li{
+    float: left;
+}
+.main-nav li a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 2s;
+}
+.main-nav li a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+.hero{
+    top: 50%;
+    position: absolute;
+}
+h1{
+font-weight: 400;
+font-size: 2rem;
+color: #fff;
+margin-bottom: 30px;
+letter-spacing: 5px;
+word-spacing: 3px;
+}
+.hero a{
+    padding: 10px 20px;
+    border: solid 1px yellow;
+    margin-right: 20px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity: .7;
+    transition: 1s;
+}
+.hero a:hover{
+    background-color: yellow;
+    color: black;
+    opacity: 1;
+}
+.h2{
+    color: black;
+    font-weight: 400;
+    font-size: 1.5rem;  
+    letter-spacing: 5px;
+    word-spacing: 3px;
+    margin-left: 250px;
+}
+.head-nav{
+    display: flex;
+    align-items: center;
+}
+hr{
+    width: 200px;
+    border: solid 2px yellow;
+    background-color: yellow;
+    margin-bottom: 50px;
+}
+.prag-1{
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    font-size: 1.2rem;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.team{
+    color: black;
+    margin-bottom: 50px;
+}
+.team i{
+    font-size: xx-large;
+    color: rgb(0, 157, 255);
+}
+.team h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+    word-spacing: 3px;
+}
+.team p{
+    line-height: 150%;
+    font-weight: 200;
+    font-size: 1.2rem;
+    word-spacing: 3px;
+}
+.training{
+    padding: 0;
+    margin-bottom: -4px;
+    background-color: black;
+    overflow: hidden;
+}
+.training img{
+    width: 100%;
+    opacity: .5;
+    transition: 1s;
+    transform: scale(1.1);
+}
+.training img:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+h2{
+    color: black;
+    font-weight: 400;
+    font-size: 1.5rem;  
+    letter-spacing: 5px;
+    word-spacing: 3px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+.workes{
+    background: linear-gradient(white ,rgba(0, 0, 0, 0.114));
+}
+.lift-work{
+    text-align: center;
+}
+.lift-work img{
+    width: 50%;
+}
+.right-work{
+    color: black;
+}
+.step{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.step div{
+    padding: 30px 30px;
+    border: solid 2px rgb(49, 49, 138);
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.right-work a{
+    margin-left: 40px;
+}
+.right-work img{
+    height: 50px;
+    margin-top: 70px;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.right-work img:hover{
+    transform: scale(1);
+    opacity: .7;
+}
+.coache img{
+    width: 100%;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+.info a{
+    padding: 20px 0px;
+}
+.sub{
+    display: flex;
+}
+.sub a{
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    border: solid black 2px;
+    background-color: black;
+    color: red;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.sub a:hover{
+    background-color: red;
+    color: black;
+}
+.info i {
+    margin-right: 10px;
+    color: rgb(0, 157, 255);
+}
+.info a{
+    color: black;
+    text-decoration: none;
+}
+.info a:hover{
+    text-decoration: underline;
+    color: red;
+}
+form{
+    margin-top: 20px;
+}
+form div{
+    display: flex;
+    margin-bottom: 5px;
+}
+input, 
+textarea
+{
+width: 100%;
+padding: 5px;
+border: solid 1px black;
+border-radius: 5px
+}
+input[type=radio]
+{
+width: 10%;
+}
+select{
+    width: 50%;
+    padding: 5px;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.loggin{
+    padding: 10px 20px;
+    border: solid 1px black;
+    background-color: yellow;
+    border-radius: 10px;
+    color: black;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-top: 30px;
+    transition: 1s;
+}
+.loggin:hover{
+    opacity: .6;
+    background-color: gold;
+}
+footer{
+    padding: 40px 0px;
+    background-color: #333;
+}
+footer p{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+.footer-nav{
+    list-style: none;
+    display: flex;
+}
+.footer-nav li a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 2s;
+}
+.footer-nav li a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+.social-nav{
+    float: right;
+    list-style: none;
+    display: flex;
+}
+.social-nav li a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 2s;
+}
+.social-nav li a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
